@@ -1,0 +1,32 @@
+{
+  "usuario": [
+    { "id": 1, "name": "NombreUsuario1", "tipoUser": "Admintrador"},
+    { "id": 2, "name": "NombreUsuario2", "tipoUser": "Administrador" },
+    { "id": 3, "name": "NombreUsuario3", "tipoUser": "Estandar" }
+  ],
+  "Tablero": [
+    { "id": 1, "nameBoard": "Nombre Tablero 1", "anio": 2022, "happyBoard": 30 },
+    { "id": 2, "nameBoard": "Nombre Tablero 2", "anio": 2022, "happyBoard": 60 }
+  ],
+  "Ciclo": [
+    { "id": 1, "nameCycle": "Nombre Ciclo 1", "happyCycle": 40, "tableroId": 1 },
+    { "id": 2, "nameCycle": "Nombre Ciclo 2", "happyCycle": 20, "tableroId": 1 }
+    { "id": 3, "nameCycle": "Nombre Ciclo 3", "happyCycle": 50, "tableroId": 2 }
+  ],
+  "Indicador": [
+    { "id": 1, "nameIndicator": "Nombre indicador 1", "happyIndicator": 90, "cicloId": 1 },
+    { "id": 2, "nameIndicator": "Nombre indicador 1", "happyIndicator": 100, "cicloId": 1 },
+    { "id": 3, "nameIndicator": "Nombre indicador 1", "happyIndicator": 80, "cicloId": 2 },
+  ],
+  "usuario-tablero": [
+    {"category": "Creador", "tableroId": 1, "usuarioId": 1 }
+    {"category": "Invitado", "tableroId": 1, "usuarioId": 2 }
+    {"category": "Creador", "tableroId": 2, "usuarioId": 3 }
+  ]
+  "usuario-indicador": {
+    {"evaluation": 1, "indicadorId": 1, "usuarioId": 1 }
+    {"evaluation": 0, "indicadorId": 1, "usuarioId": 2 }
+    {"evaluation": -1, "indicadorId": 2, "usuarioId": 1 }
+    {"evaluation": -1, "indicadorId": 2, "usuarioId": 2 }
+  }
+}
