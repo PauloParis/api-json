@@ -22,11 +22,5 @@
     {"category": "Creador", "tableroId": 1, "usuarioId": 1 },
     {"category": "Invitado", "tableroId": 1, "usuarioId": 2 },
     {"category": "Creador", "tableroId": 2, "usuarioId": 3 }
-  ],
-  "usuario-indicador": [
-    {"evaluation": 1, "indicadorId": 1, "usuarioId": 1 },
-    {"evaluation": 0, "indicadorId": 1, "usuarioId": 2 },
-    {"evaluation": -1, "indicadorId": 2, "usuarioId": 1 },
-    {"evaluation": -1, "indicadorId": 2, "usuarioId": 2 }
   ]
 }
