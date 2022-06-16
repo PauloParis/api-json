@@ -16,7 +16,7 @@
   "Indicador": [
     { "id": 1, "nameIndicator": "Nombre indicador 1", "happyIndicator": 90, "cicloId": 1 },
     { "id": 2, "nameIndicator": "Nombre indicador 2", "happyIndicator": 100, "cicloId": 1 },
-    { "id": 3, "nameIndicator": "Nombre indicador 3", "happyIndicator": 80, "cicloId": 2 },
+    { "id": 3, "nameIndicator": "Nombre indicador 3", "happyIndicator": 80, "cicloId": 2 }
   ],
   "usuario-tablero": [
     {"category": "Creador", "tableroId": 1, "usuarioId": 1 },
